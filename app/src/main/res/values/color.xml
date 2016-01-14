@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="linha_par">#BA68C8</color>
+    <color name="linha_impar">#9C27B0</color>
+    <color name="fundo_lista">#E1BEE7</color>
+</resources>
