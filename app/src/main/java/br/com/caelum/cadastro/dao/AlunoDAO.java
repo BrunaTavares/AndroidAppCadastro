@@ -1,14 +1,15 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.view.ContextMenu;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.caelum.cadastro.modelo.Aluno;
 
 /**
  * Created by Bruna on 07/01/16.

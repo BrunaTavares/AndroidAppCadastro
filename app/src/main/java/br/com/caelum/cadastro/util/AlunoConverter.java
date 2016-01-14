@@ -1,9 +1,11 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.util;
 
 import org.json.JSONException;
 import org.json.JSONStringer;
 
 import java.util.List;
+
+import br.com.caelum.cadastro.modelo.Aluno;
 
 /**
  * Created by Bruna on 12/01/16.

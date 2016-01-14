@@ -1,4 +1,4 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.fragment;
 
 
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.List;
 
+import br.com.caelum.cadastro.R;
+import br.com.caelum.cadastro.modelo.Prova;
+
 /**
  * Created by Bruna on 13/01/16.
  */
@@ -22,6 +25,7 @@ public class ListaProvasFragment extends android.support.v4.app.Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View layoutProvas= inflater.inflate(R.layout.fragment_lista_provas,container,false);
         listViewProvas = (ListView) layoutProvas.findViewById(R.id.lista_provas_listview);
 

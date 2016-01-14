@@ -1,16 +1,18 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.adapter;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import br.com.caelum.cadastro.modelo.Aluno;
+import br.com.caelum.cadastro.R;
 
 /**
  * Created by Bruna on 11/01/16.

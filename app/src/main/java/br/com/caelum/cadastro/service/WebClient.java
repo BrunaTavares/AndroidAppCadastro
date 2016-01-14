@@ -1,4 +1,4 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.service;
 
 import android.content.Entity;
 import android.media.ExifInterface;

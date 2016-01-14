@@ -1,9 +1,10 @@
 package br.com.caelum.cadastro;
 
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+
+import br.com.caelum.cadastro.fragment.DetalhesProvaFragment;
+import br.com.caelum.cadastro.fragment.ListaProvasFragment;
 
 /**
  * Created by android5519 on 13/01/16.

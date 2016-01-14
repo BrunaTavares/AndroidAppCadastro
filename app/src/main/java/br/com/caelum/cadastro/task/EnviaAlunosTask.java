@@ -7,10 +7,10 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import br.com.caelum.cadastro.Aluno;
-import br.com.caelum.cadastro.AlunoConverter;
-import br.com.caelum.cadastro.AlunoDAO;
-import br.com.caelum.cadastro.WebClient;
+import br.com.caelum.cadastro.modelo.Aluno;
+import br.com.caelum.cadastro.util.AlunoConverter;
+import br.com.caelum.cadastro.dao.AlunoDAO;
+import br.com.caelum.cadastro.service.WebClient;
 
 /**
  * Created by Bruna  on 13/01/16.

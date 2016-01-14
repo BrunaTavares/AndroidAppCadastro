@@ -25,7 +25,7 @@
         <activity android:name=".ProvasActivity"
             android:label="ProvasActivity"/>
 
-        <receiver android:name=".SMSReceiver" android:enabled="true">
+        <receiver android:name=".service.SMSReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
             </intent-filter>

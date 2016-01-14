@@ -1,4 +1,4 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,8 @@ import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.widget.Toast;
 
-import java.util.Objects;
+import br.com.caelum.cadastro.R;
+import br.com.caelum.cadastro.dao.AlunoDAO;
 
 /**
  * Created by Bruna on 12/01/16.
@@ -29,7 +30,7 @@ public class SMSReceiver extends BroadcastReceiver{
         AlunoDAO dao = new AlunoDAO(ctx);
 
         if(dao.isAluno(telefone)){
-            MediaPlayer mp = MediaPlayer.create(ctx,R.raw.msg);
+            MediaPlayer mp = MediaPlayer.create(ctx, R.raw.msg);
             mp.start();
         }
 

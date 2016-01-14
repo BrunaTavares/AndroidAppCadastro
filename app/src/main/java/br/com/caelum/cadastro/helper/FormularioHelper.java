@@ -1,16 +1,15 @@
-package br.com.caelum.cadastro;
+package br.com.caelum.cadastro.helper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.ExifInterface;
-import android.text.Editable;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 
-import org.apache.commons.logging.Log;
+import br.com.caelum.cadastro.modelo.Aluno;
+import br.com.caelum.cadastro.FormularioActivity;
+import br.com.caelum.cadastro.R;
 
 /**
  * Created by Bruna on 06/01/16.
