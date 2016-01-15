@@ -13,6 +13,7 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.List;
 
+import br.com.caelum.cadastro.ProvasActivity;
 import br.com.caelum.cadastro.R;
 import br.com.caelum.cadastro.modelo.Prova;
 
@@ -42,10 +43,16 @@ public class ListaProvasFragment extends android.support.v4.app.Fragment{
             @Override
             public void onItemClick(AdapterView<?> adapter, View v, int posicao, long id) {
                 Prova selecionada = (Prova) adapter.getItemAtPosition(posicao);
-                Toast.makeText(getActivity(), "Prova Selecionada: " + selecionada.toString(), Toast.LENGTH_LONG).show();
+
+                ProvasActivity calendarioProvas = (ProvasActivity) getActivity();
+                calendarioProvas.selecionaProva(selecionada);
+                //Toast.makeText(getActivity(), "Prova Selecionada: " + selecionada.toString(), Toast.LENGTH_LONG).show();
 
             }
         });
+
+
+
         return layoutProvas;
     }
 }
