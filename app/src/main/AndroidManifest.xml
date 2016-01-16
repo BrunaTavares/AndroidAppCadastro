@@ -34,7 +34,9 @@
         </activity>
         <activity
             android:name=".ProvasActivity"
-            android:label="ProvasActivity" />
+            android:label="Provas" />
+        <activity android:name=".MostraAlunosActivity"
+            android:label="Mostra os Alunos"/>
 
         <receiver
             android:name=".service.SMSReceiver"
@@ -51,10 +53,6 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" >
-        </activity>
     </application>
 
 </manifest>
