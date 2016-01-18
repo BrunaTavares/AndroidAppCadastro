@@ -115,6 +115,10 @@ public class ListaAlunosActivity extends ActionBarActivity {
                 Intent mapa = new Intent(this,MostraAlunosActivity.class);
                 startActivity(mapa);
                 return true;
+            case R.id.menu_galeria:
+                Intent galeria = new Intent(this,GaleriaActivity.class);
+                startActivity(galeria);
+
         }
 
 

@@ -1,6 +1,6 @@
 package br.com.caelum.cadastro;
 
-import android.app.Fragment;
+
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
@@ -27,6 +27,7 @@ public class ProvasActivity extends ActionBarActivity {
         }
         transaction.addToBackStack(null);
         transaction.commit();
+
 
     }
      public boolean isTablet(){

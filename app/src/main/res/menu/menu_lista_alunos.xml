@@ -1,5 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
     >
 <item
     android:id="@+id/menu_mapa"
@@ -19,6 +20,12 @@
     android:title="Enviar notas"
     app:showAsAction="always"
     />
+    <item
+        android:id="@+id/menu_galeria"
+        android:icon="@drawable/ic_camera"
+        android:title="Enviar notas"
+        app:showAsAction="always"
+        />
 
 
 </menu>

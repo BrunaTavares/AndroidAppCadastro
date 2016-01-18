@@ -37,6 +37,9 @@
             android:label="Provas" />
         <activity android:name=".MostraAlunosActivity"
             android:label="Mostra os Alunos"/>
+        <activity
+            android:name=".GaleriaActivity"
+            android:label="Galeria"/>
 
         <receiver
             android:name=".service.SMSReceiver"
